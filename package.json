@@ -21,6 +21,9 @@
     "*.md",
     "typings"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@just-bi"
+  },
   "scripts": {
     "start": "webpack-dev-server --config ./tools/webpack.config.demo.dev.js --open",
     "watch": "webpack --config ./tools/webpack.config.dev.js --watch",
@@ -33,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaoli/GGEditor.git"
+    "url": "git+https://github.com/just-bi/GGEditor.git"
   },
   "author": {
     "name": "高力",
